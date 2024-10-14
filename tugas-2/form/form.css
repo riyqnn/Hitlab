@@ -1,0 +1,42 @@
+body {
+  font-family: sans-serif;
+  background-image: url("images/sky.webp");
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.box {
+  width: 100%; 
+  max-width: 500px; 
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4px);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  padding: 20px;
+  border-radius: 10px;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+input, select, textarea, button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px; 
+  box-sizing: border-box;
+}

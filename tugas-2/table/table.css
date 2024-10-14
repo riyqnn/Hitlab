@@ -1,0 +1,24 @@
+table {
+    border-collapse: collapse;
+    box-shadow: 5px 5px 5px lavender;
+  }
+ 
+th{
+    text-align: center;
+    border: 1px solid lightgray;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+
+td {
+    text-align: center;
+    border: 2px solid lightgray;
+    padding: 5px;
+  }
+
+img {
+    margin:20px;
+    width:200px;
+    height:100%;
+  }
